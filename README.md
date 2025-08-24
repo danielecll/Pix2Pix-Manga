@@ -42,7 +42,7 @@ pip install tensorflow keras discord matplotlib tqdm numpy
 │  ├─ gen/
 │  └─ disc/
 ├─ output/
-├─ train.py
+├─ model.py
 └─ data/
    ├─ train/
    └─ val/
@@ -83,13 +83,11 @@ prediction = gen(input_image, training=False)
 
 ---
 
-## Example Results
+## Results
 
-> Replace placeholders with actual outputs
+> Some of the best results from the model
 
-| Input | Ground Truth | Prediction |  
-|-------|--------------|------------|  
-| ![input](output/input_placeholder.jpg) | ![target](output/target_placeholder.jpg) | ![pred](output/pred_placeholder.jpg) |
+![img](https://storage.googleapis.com/kaggle-script-versions/94500343/output/output/epoch_1.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20250824%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250824T144259Z&X-Goog-Expires=345600&X-Goog-SignedHeaders=host&X-Goog-Signature=3c8750caf58177369bdc8fc16a54540b7956f74ef3588b76dffbc26e5fc12f6d5f33bd1a28c58f214d2f79883352d7e69142a4a86a4f58aaf67f3de17fc5a8d84a1f7e47d88a2530f9054508fe20c09f62355d3dd37713f67511c2171e179dbe2d960b4de238e2a509e8248c6f533dfe06157b28d69d0c36d57e3c9c4887717ace8af781b60bbcfd340de849766991ee78e957e7aa9d555313eadca4ae27bb2543caeb0789d6b44ee57f4da47854a2c1f070a06b2472b0907b27b8117ba40fdbdca03bfa8c3e8d9544357762c43d884c884994db74be088ec97351a1c2a3adc2bf8b2818876c745835bb3d9067d655565d03513ea75d642e1abbff33ca506e8d 
 
 ---
 
