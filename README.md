@@ -1,5 +1,6 @@
 # Pix2Pix & CycleGAN Manga Cleanup
 This repository implements an image-to-image translation model combining Pix2Pix and CycleGAN concepts using TensorFlow and Keras. It supports training and inference on paired datasets, with Discord integration for live training updates.
+
 One of my first ML projects. The goal was to clean up scanned manga images and make them look digitally converted. Results are limited due to a small dataset and limited compute (trained on an NVIDIA 3060 12GB), but with more data and stronger hardware, the approach is viable.
 
 ---
